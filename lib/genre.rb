@@ -23,7 +23,7 @@ class Genre
   end
 
   def artists
-    songs.select do |song|
+    self.select do |song|
       song.artist
     end
   end
