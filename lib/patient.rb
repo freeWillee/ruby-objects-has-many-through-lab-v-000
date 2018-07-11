@@ -1,3 +1,4 @@
+require 'pry'
 class Patient
   @@all = []
   attr_accessor :name
