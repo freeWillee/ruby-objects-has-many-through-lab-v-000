@@ -1,3 +1,4 @@
+require 'pry'
 class Genre
   @@all = []
   attr_accessor :name, :songs
