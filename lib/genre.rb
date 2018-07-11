@@ -24,7 +24,6 @@ class Genre
   end
 
   def artists
-    binding.pry
     self.songs.select do |song|
       song.artist
     end
