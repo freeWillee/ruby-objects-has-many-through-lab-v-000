@@ -25,5 +25,6 @@ class Doctor
     self.appointments.collect do |appointment|
       appointment.patient
     end
+  end
 
 end
