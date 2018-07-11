@@ -27,4 +27,5 @@ class Genre
       songs.artist
     end
   end
+  
 end
